@@ -1,0 +1,21 @@
+{
+  "tool": "Built-in OpenAI Imagegen",
+  "prompts": [
+    {
+      "name": "hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: a wide 16:9 website hero photograph for a premium Sri Lankan forest cabana retreat. Create one stunning realistic architectural photograph: a small, beautifully crafted dark teak timber cabana with a low pitched roof, floor-to-ceiling glazing glowing warm amber, a private timber deck and still rectangular plunge pool, nestled in dense tropical forest on misty Sri Lankan hills. Wide elevated view from across pool at late golden hour, layered pale misty mountain ridges beyond. Cabana toward right half, open moody forest and mist on left for ivory heading overlay. Refined authentic tropical architecture, tactile wood, ferns, soft reflections, cinematic understated hospitality editorial photography, natural greens with warm interior light. Not a giant mansion. No people, no text, no logos, no watermark. Horizontal wide landscape composition."
+    },
+    {
+      "name": "interior",
+      "prompt": "Use case: photorealistic-natural. Asset type: luxury cabana interior editorial website photo, landscape 3:2. A realistic dark teak timber cabana bedroom in a Sri Lankan rainforest retreat. Linen king bed with casually elegant ivory bedding, natural woven pendant, timber ceiling, textured warm plaster wall, understated ceramic vase. Floor to ceiling glass doors open toward a private timber terrace with dense tropical foliage and softly misted hills. Warm early morning sunlight, authentic exquisite natural material details, calm high-end architectural magazine composition. Maintain simple beautiful timber cabin style and earthy green ivory palette. No people, no text, logos or watermark."
+    },
+    {
+      "name": "dining",
+      "prompt": "Use case: photorealistic-natural. Asset type: portrait 4:5 premium hospitality editorial photograph. An intimate beautifully set outdoor dining table on a dark teak cabana terrace overlooking misty lush Sri Lankan forest hills, warm golden sunrise, hand-thrown ceramic plates with elegant fresh tropical breakfast, papaya, coconut, tea, linen napkins, two simple teak chairs, leafy foreground and natural timber building edge. Elegant small forest retreat, cinematic atmospheric realistic photography, tactile materials, calm ivory and forest green palette. No people, no text, logos, watermark."
+    }
+  ],
+  "additional": {
+    "name": "exterior",
+    "prompt": "Use case: photorealistic-natural. Asset type: horizontal 3:2 cabana exterior photo for a boutique Sri Lankan nature retreat website. Primary request: believable REAL architectural photography, not CGI or render. A modest premium freestanding one bedroom cabana made from dark honey teak and warm plaster, weathered clay tiled pitched roof, large sliding glass front, simple timber deck with two rattan chairs. Grounded in an actual slightly imperfect tropical garden, stepping stones, ferns and tall Sri Lankan forest trees, distant soft green hills. Shot at eye level in bright soft overcast daylight with ordinary natural shadows, authentic wood grain and imperfect garden foliage, quiet and inviting. Professional full frame camera 35mm architectural photograph, straight verticals, realistic exposure, neutral color grading, crisp natural textures. No oversaturated colors, no impossible infinity architecture, no fantastical landscape, no dreamy CGI glow. No people, no text, no logos, no watermark."
+  }
+}

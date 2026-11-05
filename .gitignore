@@ -1,0 +1,24 @@
+node_modules/
+.next/
+dist/
+.env
+.env.*
+!.env.example
+data/
+uploads/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.admin-credentials
+
+/work/
+
+# Local credentials, database copies and diagnostic logs
+.admin-credentials*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.pem
+*.key

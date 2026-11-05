@@ -1,0 +1,364 @@
+.enquiry-heading select {
+  border: 1px solid #d1d8c7;
+  background: #fffef9;
+  color: var(--ink);
+  border-radius: 0;
+  padding: 11px 12px;
+  min-width: 0;
+  width: 100%;
+  font-size: 12px;
+}
+.admin-page {
+  padding-bottom: 90px;
+  min-height: 80vh;
+}
+.admin-login {
+  max-width: 450px;
+  padding: 75px 24px;
+  margin: auto;
+}
+.admin-login h1 {
+  font-size: 65px;
+  margin: 20px 0;
+}
+.admin-login > p {
+  font-size: 11px;
+  color: var(--muted);
+}
+.admin-login form {
+  margin-top: 30px;
+}
+.admin-login > .muted {
+  font-size: 9px;
+  margin-top: 20px;
+}
+.admin-shell {
+  padding-top: 55px;
+}
+.admin-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.admin-title h1 {
+  font-size: 52px;
+  margin-top: 14px;
+}
+.admin-title .button {
+  font-size: 10px;
+  gap: 12px;
+  padding: 12px 18px;
+  min-height: 40px;
+}
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 35px;
+}
+.admin-stats > div {
+  background: #e9eddf;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+}
+.admin-stats strong {
+  font: 40px var(--serif);
+}
+.admin-stats span {
+  font-size: 10px;
+}
+.admin-tabs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.admin-tabs > button {
+  background: none;
+  border: 0;
+  padding: 12px 5px;
+  font-size: 11px;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+}
+.admin-tabs > button.active {
+  border-color: var(--forest);
+}
+.admin-tabs > a {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+}
+.admin-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 25px 0;
+}
+.admin-section-title h2 {
+  font-size: 35px;
+}
+.empty-state {
+  padding: 60px;
+  text-align: center;
+  border: 1px dashed #b8c1a8;
+}
+.empty-state svg {
+  margin-bottom: 20px;
+}
+.empty-state p {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 15px;
+}
+.admin-form {
+  background: #eeefe6;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+.admin-form h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.admin-form .button {
+  font-size: 10px;
+  min-height: 45px;
+  padding: 12px 20px;
+}
+.admin-form > .form-grid {
+  gap: 0 25px;
+}
+.admin-form label {
+  font-size: 11px;
+}
+.cabana-editor {
+  border: 1px solid var(--line);
+  margin-bottom: 15px;
+}
+.cabana-editor summary {
+  padding: 20px 25px;
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 26px;
+}
+.cabana-editor summary span {
+  float: right;
+  font-family: var(--sans);
+  font-size: 9px;
+  padding-top: 8px;
+}
+.cabana-editor .admin-form {
+  margin-bottom: 0;
+  border-top: 1px solid var(--line);
+}
+.upload-label {
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px !important;
+  border: 1px dashed #9fac8e;
+  padding: 10px 15px;
+  max-width: 230px;
+  font-size: 10px !important;
+  overflow: hidden;
+}
+.upload-label input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.gallery-editor {
+  display: grid;
+  grid-template-columns: 150px 1.3fr 1fr;
+  gap: 25px;
+  padding: 25px 0;
+  border-top: 1px solid var(--line);
+  align-items: start;
+}
+.gallery-editor > img {
+  height: 130px;
+  width: 150px;
+  object-fit: cover;
+}
+.gallery-editor .text-link {
+  font-size: 9px;
+}
+.enquiry-card {
+  padding: 25px;
+  border: 1px solid var(--line);
+  margin-bottom: 15px;
+}
+.enquiry-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.enquiry-heading h3 {
+  margin-top: 10px;
+}
+.enquiry-heading .eyebrow {
+  font-size: 7px;
+}
+.enquiry-heading select {
+  width: auto;
+  font-size: 10px;
+}
+.enquiry-card > p {
+  font-size: 11px;
+  margin-top: 15px;
+}
+.enquiry-contact {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.enquiry-contact > a {
+  font-size: 11px;
+  text-decoration: underline;
+}
+.enquiry-message {
+  background: #ecefe3;
+  padding: 12px;
+}
+.enquiry-list {
+  max-height: 1100px;
+  overflow: auto;
+}
+@media (max-width: 800px) {
+  .admin-title h1 {
+    font-size: 43px;
+  }
+  .admin-stats {
+    gap: 12px;
+  }
+  .gallery-editor {
+    grid-template-columns: 100px 1fr 1fr;
+    gap: 15px;
+  }
+  .gallery-editor > img {
+    width: 100px;
+    height: 120px;
+  }
+}
+@media (max-width: 650px) {
+  .admin-shell {
+    padding-top: 40px;
+  }
+  .admin-title {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .admin-title h1 {
+    font-size: 43px;
+  }
+  .admin-title .button {
+    margin-top: 20px;
+  }
+  .admin-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .admin-stats > div {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 15px 20px;
+  }
+  .admin-stats strong {
+    font-size: 35px;
+  }
+  .admin-stats span {
+    margin-left: auto;
+  }
+  .admin-tabs {
+    gap: 13px;
+  }
+  .admin-tabs > button {
+    font-size: 10px;
+  }
+  .admin-tabs > a {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  .admin-section-title h2 {
+    font-size: 30px;
+  }
+  .admin-section-title .text-link {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .admin-form {
+    padding: 20px;
+  }
+  .admin-form > .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .admin-form h2 {
+    font-size: 31px;
+  }
+  .cabana-editor summary {
+    font-size: 24px;
+    padding: 17px;
+  }
+  .cabana-editor summary span {
+    float: none;
+    display: block;
+    padding-top: 8px;
+    font-size: 8px;
+  }
+  .gallery-editor {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 22px 0;
+  }
+  .gallery-editor > img {
+    width: 100%;
+    height: 190px;
+  }
+  .enquiry-card {
+    padding: 20px;
+  }
+  .enquiry-heading {
+    gap: 15px;
+    align-items: flex-start;
+  }
+  .enquiry-heading h3 {
+    font-size: 29px;
+  }
+  .enquiry-heading .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .enquiry-contact {
+    gap: 10px;
+  }
+  .enquiry-contact > a {
+    font-size: 10px;
+  }
+  .enquiry-card > p {
+    font-size: 10px;
+  }
+  .empty-state {
+    padding: 35px 20px;
+  }
+  .admin-login h1 {
+    font-size: 58px;
+  }
+  .admin-login {
+    padding-top: 55px;
+  }
+}

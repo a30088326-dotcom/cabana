@@ -1,0 +1,32 @@
+{
+  "name": "elara-retreat",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm run dev:frontend",
+    "dev:api": "npm run dev:backend",
+    "setup": "node scripts/setup.mjs",
+    "build": "npm run build --workspace=@elara/backend && npm run build --workspace=@elara/frontend",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/dev.mjs --production",
+    "admin:password": "node scripts/password.mjs",
+    "dev:frontend": "npm run dev --workspace=@elara/frontend",
+    "dev:backend": "npm run dev --workspace=@elara/backend",
+    "open": "node scripts/run.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3"
+  }
+}

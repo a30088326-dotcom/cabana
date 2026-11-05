@@ -1,0 +1,11 @@
+@import "./fonts.css";
+@import "../shared/styles/base.css";
+@import "../modules/navigation/styles/navigation.css";
+@import "../modules/home/styles/home.css";
+@import "../modules/booking/styles/booking.css";
+@import "../modules/cabanas/styles/cabanas.css";
+@import "../modules/experiences/styles/experiences.css";
+@import "../modules/gallery/styles/gallery.css";
+@import "../modules/contact/styles/contact.css";
+@import "../modules/legal/styles/legal.css";
+@import "../modules/admin/styles/admin.css";
